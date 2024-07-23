@@ -3,22 +3,25 @@ import Nav from "./Nav.astro";
 
 
 ---
-<section class="text-gray-600 body-font bg-background">
+<section class="text-gray-600 font-poppins bg-background">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
       <div
           class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <div class="">
-          <h1 class="relative w-[max-content] font-mono text-3xl before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black">Hey! I am Rob
+          <h1 class="relative w-[max-content] font-mono font-semibold text-5xl text-text before:absolute before:inset-0 before:animate-typewriter before:bg-white after:absolute after:inset-0 after:w-[0.125em] after:animate-caret after:bg-black">Hey! I am Rob<span class="">👋🏾</span>
           </h1>
           </div>
-          <p class="mb-8 leading-relaxed ">Aspiring full stack devevloper looking to code the universe.</p>
+          <h2 class="mb-8 leading-relaxed font-bold text-text text-2xl ">Aspring Full Stack Developer looking to make difference sponsered by Coffee!</h2>
+          <p class="mb-8 leading-relaxed text-text text-lg">I am a developer passionate about making a meaningful impact through technology. With 4 years of experience in IT Operations, I recently transitioned to a career in Software Development. I thoroughly enjoy building applications that solve real-world problems.
+            My skill set includes TypeScript, JavaScript, and SQL, utilizing frameworks such as React, Node.js, and TailwindCSS. Feel free to check out my GitHub to see some of the exciting projects I am working on or have completed. You can also connect with me on LinkedIn.
+          </p>
           <div class="flex justify-center">
-              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+             <a href="https://github.com/robert-hall-24"><button class="bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 text-xl rounded font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate hover:bg-background ">GitHub</button></a>
+             <a href="https://www.linkedin.com/in/robert-hall-b6a9a7185/"><button class="ml-4 inline-flex text-primary bg-background py-3 px-6 focus:outline-none hover:bg-gradient-to-r from-blue-200 to-red-200 rounded text-lg border-dotted border-2 border-primary">Linkedin</button></a>
           </div>
       </div>
-      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img class="object-cover object-center rounded transition duration-300 ease-in-out hover:scale-110" alt="hero" src="../../public/port-self-image.jpg">
+      <div class="lg:max-w-lg lg:w-full lg:h-full md:w-1/2 w-5/6 bg-gradient-to-b p-2 from-primary to-secondary rounded-lg">
+          <img class="object-cover rounded-lg bg-gradient from-primary to-secondary" alt="hero" src="../../public/port-self-image.jpg">
       </div>
   </div>
 </section>
