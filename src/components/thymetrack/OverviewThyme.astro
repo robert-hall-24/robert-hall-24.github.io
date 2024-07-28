@@ -1,0 +1,50 @@
+
+---
+const { id } = Astro.props;
+
+---
+
+<section id={id} class="text-gray-600 font-poppins bg-background">
+  <div class="container mx-auto flex py-24 md:flex-row flex-col items-center px-6 md:px-12 lg:px-16">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <div class="mb-8 leading-relaxed text-text text-sm">
+        <h1 class="text-3xl font-bold mb-4">Thyme Track</h1>
+        <p class="mb-8">
+          <strong>Thyme Track</strong> is a versatile time-tracking app designed to help you monitor and manage your hours efficiently. Whether you need to track your daily activities, weekly projects, or monthly goals, Thyme Track provides a comprehensive solution to stay organized and productive.
+        </p>
+        <h2 class="text-2xl font-bold mb-4">Project Overview</h2>
+        <p class="mb-8">
+          Thyme Track is currently a work in progress. This project is not only an effort to build a powerful time-tracking tool but also a personal journey to enhance my skills, write cleaner code, and explore new technologies and tech stacks. Stay tuned for updates and improvements!
+        </p>
+        <h2 class="text-2xl font-bold mb-4">Tech Stack</h2>
+        <div class="text-left max-w-4xl mx-auto">
+          <h3 class="text-xl font-bold mb-4">Frontend</h3>
+          <ul class="list-disc list-inside mb-8">
+            <li><strong>React:</strong> Building user interfaces with reusable components.</li>
+            <li><strong>TypeScript:</strong> Enhancing code quality and maintainability.</li>
+            <li><strong>JavaScript:</strong> Core programming language for frontend logic.</li>
+            <li><strong>HTML5:</strong> Structuring web content.</li>
+            <li><strong>Tailwind CSS:</strong> Utility-first CSS framework for styling.</li>
+            <li><strong>Storybook:</strong> Developing and testing UI components in isolation.</li>
+          </ul>
+          <h3 class="text-xl font-bold mb-4">Backend</h3>
+          <ul class="list-disc list-inside mb-8">
+            <li><strong>TypeScript:</strong> Enhancing code reliability.</li>
+            <li><strong>JavaScript:</strong> Backend logic.</li>
+            <li><strong>SQLite3:</strong> Storing and managing data.</li>
+            <li><strong>Node.js:</strong> Server-side development.</li>
+            <li><strong>Express:</strong> Building APIs and handling requests.</li>
+            <li><strong>Knex.js:</strong> SQL query builder for database interaction.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full lg:h-full md:w-1/2 w-5/6 rounded-lg">
+      <img class="object-cover rounded-lg" alt="hero" src="thyme.png">
+      <div class="flex justify-center py-4 px-6">
+        <a href="https://github.com/robert-hall-24/ThymeTracks"><button class="bg-gradient-to-r from-primary to-secondary text-white px-6 py-4 text-xl rounded font-medium focus:ring ring-black ring-opacity-10 gradient element-to-rotate hover:bg-background">View Code</button></a>
+        <a href="#livedemo"><button class="ml-4 inline-flex text-primary bg-background py-4 px-6 focus:outline-none hover:bg-gradient-to-r from-blue-200 to-red-200 rounded text-lg border-dotted border-2 border-primary">Live Demo</button></a>
+      </div>
+    </div>
+  </div>
+</section>
