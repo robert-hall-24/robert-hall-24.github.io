@@ -1,3 +1,11 @@
+# Robert Hall Portfolio
+
+Welcome to my Portfolio page. This was made with Astro, Typescript and Tailwind.
+
+
+
+
+
 # Astro Starter Kit: Basics
 
 ```sh
